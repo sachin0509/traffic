@@ -1,16 +1,16 @@
-#the traffic light will run in the background  with a time interval of 'X'
-#>>camera on
-#>>start recording{
-	#while signal==red
-		#{
-		#if motion is sensed
-			#{
-			#capture image> timestamp> save in cloud
-			#}
-		#}
-		#}
-		#else continue recording/flow of lights
-
+"""the traffic light will run in the background  with a time interval of 'X'
+>>camera on
+>>start recording{
+	while signal==red
+		{
+		if motion is sensed
+			{
+			capture image> timestamp> save in cloud
+			}
+		}
+		}
+		else continue recording/flow of lights
+"""
 
 
 from gpiozero import MotionSensor
